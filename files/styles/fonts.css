@@ -1,0 +1,10 @@
+@font-face {
+    font-family: SF-Pro-Text-Regular;
+    src: url(../fonts/SF-Pro-Text-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: SF-Pro-Text-Regular;
+}

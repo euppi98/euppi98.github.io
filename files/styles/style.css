@@ -1,0 +1,153 @@
+body {
+    padding: 0px 20px 20px 20px;
+}
+
+.content .subtext a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999999;
+    line-height: 19px;
+}
+
+.content .subtext a:hover {
+    text-decoration: underline;
+    font-size: 12px;
+    color: #999999;
+    line-height: 19px;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.content .logo {
+    width: 281px;
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+}
+
+/*------------------MENU--------------------*/
+
+.content .menu {
+    display: inline;
+    text-align: center;
+}
+
+.content .menu ul li {
+    color: #555555;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.content .menu ul li a {
+    color: #555555;
+    text-decoration: none;
+}
+
+.content .menu ul li a:hover {
+    color: #555555;
+    text-decoration: underline;
+}
+
+/*------------------MENU--------------------*/
+
+/*------------------BLOCKS--------------------*/
+
+.content .projects {
+    margin-top: 40px;
+
+}
+
+.content .projects .pr_hor,
+.pr_hor_subsequent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.pr_bl_1,
+.pr_bl_2,
+.pr_bl_3 {
+    width: 250px;
+}
+
+.text_al {
+    display: table;
+    margin: auto;
+}
+
+.pr_bl_2,
+.pr_bl_3 {
+    margin-left: 105px;
+}
+
+.content .projects .pr_hor_subsequent {
+    margin-top: 50px
+}
+
+.top_link {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #555555;
+    display: block;
+}
+
+.lower_link {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    color: #999999;
+}
+
+.top_link:hover {
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #555555;
+    display: block;
+}
+
+.lower_link:hover {
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #999999;
+}
+
+.img-fit {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 250px;
+    height: 166px;
+    -o-object-position: top;
+    object-position: top;
+}
+
+/*------------------BLOCKS--------------------*/
+
+.content .project_content a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999999;
+    line-height: 19px;
+}
+
+.content .project_content a:hover {
+    text-decoration: underline;
+    font-size: 12px;
+    color: #999999;
+    line-height: 19px;
+}
+
+.img {
+    margin-top: 40px;
+    width: 960px;
+}
